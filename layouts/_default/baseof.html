@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+	<link rel="stylesheet" href="{{ `css/style.css` | relURL}}">
+    <link rel="stylesheet" href="{{ `css/reset.css` | relURL}}">
+    <link rel="stylesheet" href="{{ `css/animate.css` | relURL}}">
+	<link rel="icon" type="image/png" href="/images/favicon.png" />
+    <title>DP - Publication</title>
+</head>
+<body>
+	<nav class="mainNav">
+		<ul>
+			<li id="aboutBtn">About</li>
+			<li class="title"><a>NAME</a></li>
+			<li><a href="https://www.instagram.com/rca_designproducts/"><i class="fab fa-instagram socialIcon"></i></a></li>
+		</ul>
+	</nav>
+	<div id='about' class="dropDown">
+		<p>About text</p>
+	</div>
+	{{ block "main" . }}
+
+	{{end}}
+</body>
+</html>
+<script src="{{ `script/script.js` | relURL}}"></script>
