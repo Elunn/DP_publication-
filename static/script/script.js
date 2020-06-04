@@ -8,8 +8,10 @@ aboutbtn.addEventListener('click', function(){
 
     if (about.classList == "dropDown") {
         about.classList.remove("dropDown");
+		aboutbtn.classList.add("white");
         
     } else {
-           about.classList.add("dropDown");
+	   	about.classList.add("dropDown");
+		aboutbtn.classList.remove("white");
     }
 });

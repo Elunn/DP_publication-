@@ -50,6 +50,9 @@ a {
 }
 
 /*main nav bar*/
+.white {
+	color: #fff;
+}
 
 #aboutBtn {
 	cursor: pointer;
