@@ -112,7 +112,6 @@ main {
 
 .mainNav li:nth-child(2) {
 	text-align: center;
-	display: none;
 }
 
 .mainNav li:last-child {
@@ -120,22 +119,46 @@ main {
 }
 
 @media all and (min-width: 770px) {  
-	.mainNav li:nth-child(2) { 
-		display: block;
-	}
+	
 }
 
 /*Home Background*/
 
 .img-1 {
+	background-image: url(/images/9.jpg);
+	background-size: cover;
+	background-position: center;
+	backface-visibility: hidden;
+	animation: sideone 8s infinite 0s;
+}
+
+@keyframes sideone {
+	0% {
+		background-image: url(/images/9.jpg);
+	}
+	25% {
+		background-image: url(/images/6.jpg);
+	}
+	50% {
+		background-image: url(/images/7.jpg);
+	}
+	75% {
+		background-image: url(/images/8.jpg);
+	}
+	100% {
+		background-image: url(/images/9.jpg);
+	}
+}
+
+.img-2 {
 	background-image: url(/images/02.jpg);
 	background-size: cover;
 	background-position: center;
 	backface-visibility: hidden;
-	animation: sideBg 8s infinite 0s;
+	animation: sidetwo 8s infinite 0s;
 }
 
-@keyframes sideBg {
+@keyframes sidetwo {
 	0% {
 		background-image: url(/images/01.jpg);
 	}
