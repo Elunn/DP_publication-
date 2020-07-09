@@ -299,3 +299,14 @@ main {
 		margin: 0;
 	}
 }
+
+/*issue embeded page*/
+
+.issue {
+	padding-top: 10vh;
+	height: 100vh;
+}
+
+iframe {
+	height: 100%:
+}
