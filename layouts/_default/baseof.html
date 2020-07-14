@@ -20,9 +20,7 @@
 			<li><a href="https://www.instagram.com/rca_designproducts/"><i class="fab fa-instagram socialIcon"></i></a></li>
 		</ul>
 	</nav>
-	<div id='about' class="dropDown">
-		<p>About text</p>
-	</div>
+	{{ partial "about" . }}
 	{{ block "main" . }}
 
 	{{end}}

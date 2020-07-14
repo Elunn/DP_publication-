@@ -180,6 +180,7 @@ main {
 
 #about {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	padding-top: 10vh;
@@ -191,6 +192,24 @@ main {
 	transition: 1s transform;
 	transition-timing-function: ease;
 	color: #fff;
+}
+
+#about > div {
+	width: 90%;
+}
+
+#about > div p{
+	padding: .5em 0;
+}
+
+#about a {
+	color: white;
+	padding: .5em 0;
+}
+
+#about a:hover {
+	color: coral;
+	padding: .5em 0;
 }
 
 .dropDown {
@@ -219,8 +238,8 @@ main {
 }
 
 @media all and (min-width: 770px) {  
-    .publication {
-		
+    #about > div {
+		width: 50%;
 	}
 }
 
