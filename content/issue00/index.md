@@ -7,5 +7,3 @@ draft: false
 
 {{< issue issueLink="//e.issuu.com/embed.html?d=publication00_online_pdf&hideIssuuLogo=true&showOtherPublicationsAsSuggestions=true&u=rca-issuu">}}
 
-<!--//e.issuu.com/embed.html?d=publication00_online_pdf&hideIssuuLogo=true&showOtherPublicationsAsSuggestions=true&u=rca-issuu-->
-
