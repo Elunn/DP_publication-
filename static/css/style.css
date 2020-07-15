@@ -202,9 +202,12 @@ main {
 	padding: .5em 0;
 }
 
+#about li {
+	padding: .5em 0;
+}
+
 #about a {
 	color: white;
-	padding: .5em 0;
 }
 
 #about a:hover {
