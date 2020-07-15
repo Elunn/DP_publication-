@@ -206,6 +206,10 @@ main {
 	padding: .5em 0;
 }
 
+#about h3 {
+	padding-top: 1em;
+}
+
 #about a {
 	color: white;
 }
