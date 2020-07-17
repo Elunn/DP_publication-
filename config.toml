@@ -1,3 +1,6 @@
 baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "en-uk"
+title = "2DM Publication"
+
+googleAnalytics = "UA-172960147-1"
+
